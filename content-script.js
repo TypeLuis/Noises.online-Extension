@@ -1,3 +1,6 @@
+// Removes mouse from display
+document.documentElement.style.cursor = 'none';
+
 // Removes all of the unnecessary elements
 const removeElements = () => {
     const removeOneElement = (id) => {
